@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: bisque;
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.order_list{
+    display: flex;
+}
+.list{
+    margin: 0 2rem;
+    display: inline;
+    font-size: 1.2rem;
+}
+.item{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    padding: 4px;
+}
+.item:hover{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 4px;
+}
